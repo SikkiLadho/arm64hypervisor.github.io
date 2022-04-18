@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ARM64 Hypervisor Tutorial</title>
-    <link>http://sikkiladho.github.io/</link>
+    <link>http://arm64hypervisor.com/</link>
     <description>Recent content on ARM64 Hypervisor Tutorial</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Apr 2022 23:24:05 +0500</lastBuildDate><atom:link href="http://sikkiladho.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Apr 2022 23:24:05 +0500</lastBuildDate><atom:link href="http://arm64hypervisor.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Day 0: Introduction</title>
-      <link>http://sikkiladho.github.io/posts/0intro/</link>
+      <link>http://arm64hypervisor.com/posts/0intro/</link>
       <pubDate>Sat, 16 Apr 2022 23:24:05 +0500</pubDate>
       
-      <guid>http://sikkiladho.github.io/posts/0intro/</guid>
+      <guid>http://arm64hypervisor.com/posts/0intro/</guid>
       <description>This is a series of tutorials that I never had a year ago when I decided to write a bare metal hypervisor on Raspberry Pi 4. I did not have prior experience with bare-metal or even kernel development. Therefore, I will be sharing all that I have learned in following series of tutorials. You are welcome to contribute to this project and I would also love to learn from you. I&amp;rsquo;m really excited that we&amp;rsquo;re on this journey together.</description>
     </item>
     

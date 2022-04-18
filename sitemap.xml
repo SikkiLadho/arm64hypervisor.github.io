@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://sikkiladho.github.io/</loc>
+    <loc>http://arm64hypervisor.com/</loc>
     <lastmod>2022-04-16T23:24:05+05:00</lastmod>
   </url><url>
-    <loc>http://sikkiladho.github.io/posts/0intro/</loc>
+    <loc>http://arm64hypervisor.com/posts/0intro/</loc>
     <lastmod>2022-04-16T23:24:05+05:00</lastmod>
   </url><url>
-    <loc>http://sikkiladho.github.io/posts/</loc>
+    <loc>http://arm64hypervisor.com/posts/</loc>
     <lastmod>2022-04-16T23:24:05+05:00</lastmod>
   </url><url>
-    <loc>http://sikkiladho.github.io/categories/</loc>
+    <loc>http://arm64hypervisor.com/categories/</loc>
   </url><url>
-    <loc>http://sikkiladho.github.io/tags/</loc>
+    <loc>http://arm64hypervisor.com/tags/</loc>
   </url>
 </urlset>
