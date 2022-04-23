@@ -4,7 +4,6 @@
     <title>Tags on ARM64 Hypervisor Tutorial</title>
     <link>http://arm64hypervisor.com/tags/</link>
     <description>Recent content in Tags on ARM64 Hypervisor Tutorial</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://arm64hypervisor.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="http://arm64hypervisor.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
