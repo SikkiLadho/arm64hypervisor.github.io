@@ -4,6 +4,10 @@
     <title>ARM64 Hypervisor Tutorial</title>
     <link>http://arm64hypervisor.com/</link>
     <description>Recent content on ARM64 Hypervisor Tutorial</description>
+    <image>
+      <url>http://arm64hypervisor.com/papermod-cover.png</url>
+      <link>http://arm64hypervisor.com/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 16 Apr 2022 23:24:05 +0500</lastBuildDate><atom:link href="http://arm64hypervisor.com/index.xml" rel="self" type="application/rss+xml" />
     <item>

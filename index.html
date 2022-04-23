@@ -8,8 +8,8 @@
 <meta name="robots" content="index, follow">
 <title>ARM64 Hypervisor Tutorial</title>
 
-<meta name="description" content="">
-<meta name="author" content="">
+<meta name="description" content="ARM64/AARCH64 Hypervisor">
+<meta name="author" content="Mushahid Hussain">
 <link rel="canonical" href="http://arm64hypervisor.com/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.48a18943c2fc15c38a372b8dde1f5e5dc0bc64fa6cb90f5a817d2f8c76b7f3ae.css" integrity="sha256-SKGJQ8L8FcOKNyuN3h9eXcC8ZPpsuQ9agX0vjHa3864=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://arm64hypervisor.com/favicon.ico">
@@ -68,13 +68,15 @@ if (!doNotTrack) {
 }
 </script>
 <meta property="og:title" content="ARM64 Hypervisor Tutorial" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="ARM64/AARCH64 Hypervisor" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://arm64hypervisor.com/" />
+<meta property="og:url" content="http://arm64hypervisor.com/" /><meta property="og:image" content="http://arm64hypervisor.com/papermod-cover.png"/>
 
-<meta name="twitter:card" content="summary"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://arm64hypervisor.com/papermod-cover.png"/>
+
 <meta name="twitter:title" content="ARM64 Hypervisor Tutorial"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="ARM64/AARCH64 Hypervisor"/>
 
 <script type="application/ld+json">
 {
@@ -82,10 +84,10 @@ if (!doNotTrack) {
   "@type": "Organization",
   "name": "ARM64 Hypervisor Tutorial",
   "url": "http://arm64hypervisor.com/",
-  "description": "",
+  "description": "ARM64/AARCH64 Hypervisor",
   "thumbnailUrl": "http://arm64hypervisor.com/favicon.ico",
   "sameAs": [
-      "https://linkedin.com/in/mhussainshar", "https://github.com/sikkiladho"
+      "https://github.com/adityatelange/hugo-PaperMod", "https://ko-fi.com/adityatelange", "index.xml"
   ]
 }
 </script>
@@ -135,8 +137,45 @@ if (!doNotTrack) {
     </nav>
 </header>
 <main class="main"> 
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>PaperMod</h1>
+    </header>
+    <section class="entry-content">
+        <p>Welcome to ARM64/AARCH64 Hypervisor blog. I&rsquo;m Mushahid Hussain and I&rsquo;ll be writing about Hypervisor and Virtualization on on this blog. Checkout my series on building a hypervisor!</p>
+    </section>
+    <footer class="entry-footer">
+        <div class="social-icons">
+    <a href="https://github.com/adityatelange/hugo-PaperMod" target="_blank" rel="noopener noreferrer me" title="Github">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+    </a>
+    <a href="https://ko-fi.com/adityatelange" target="_blank" rel="noopener noreferrer me" title="KoFi">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet"
+    viewBox="0 -3 23 27" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+    stroke-linejoin="round">
+    <path
+        d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734c4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09c-.443-.441-3.368-3.049-4.034-3.954c-.709-.965-1.041-2.7-.091-3.71c.951-1.01 3.005-1.086 4.363.407c0 0 1.565-1.782 3.468-.963c1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.682.028-1.682.028V7.284h1.77s1.971.551 1.971 2.638c0 1.913-.985 2.667-2.059 3.015z" />
+</svg>
+    </a>
+    <a href="index.xml" target="_blank" rel="noopener noreferrer me" title="RsS">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <circle cx="5" cy="19" r="1" />
+</svg>
+    </a>
+</div>
 
-<article class="first-entry"> 
+    </footer>
+</article>
+
+<article class="post-entry"> 
   <header class="entry-header">
     <h2>Day 0: Introduction
     </h2>
@@ -144,7 +183,7 @@ if (!doNotTrack) {
   <section class="entry-content">
     <p>This is a series of tutorials that I never had a year ago when I decided to write a bare metal hypervisor on Raspberry Pi 4, Leo Hypervisor. I did not have prior experience with bare-metal or even kernel development. Therefore, I will be sharing all that I have learned in following series of tutorials. You are welcome to contribute to this project and I would also love to learn from you....</p>
   </section>
-  <footer class="entry-footer"><span title='2022-04-16 23:24:05 +0500 PKT'>April 16, 2022</span>&nbsp;·&nbsp;Mushahid Hussain(SikkiLadho)</footer>
+  <footer class="entry-footer"><span title='2022-04-16 23:24:05 +0500 PKT'>April 16, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Mushahid Hussain(SikkiLadho)</footer>
   <a class="entry-link" aria-label="post link to Day 0: Introduction" href="http://arm64hypervisor.com/posts/0intro/"></a>
 </article>
     </main>
