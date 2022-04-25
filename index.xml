@@ -8,17 +8,7 @@
       <url>http://arm64hypervisor.com/papermod-cover.png</url>
       <link>http://arm64hypervisor.com/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 16 Apr 2022 23:24:05 +0500</lastBuildDate><atom:link href="http://arm64hypervisor.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Tutorial: Introduction</title>
-      <link>http://arm64hypervisor.com/posts/0intro/</link>
-      <pubDate>Sat, 16 Apr 2022 23:24:05 +0500</pubDate>
-      
-      <guid>http://arm64hypervisor.com/posts/0intro/</guid>
-      <description>This is a series of tutorials that I never had a year ago when I decided to write a bare metal hypervisor on Raspberry Pi 4, Leo Hypervisor. I did not have prior experience with bare-metal or even kernel development. Therefore, I will be sharing all that I have learned in following series of tutorials. You are welcome to contribute to this project and I would also love to learn from you.</description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="http://arm64hypervisor.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>http://arm64hypervisor.com/about/</link>
@@ -29,6 +19,35 @@
     </item>
     
     
+    
+    <item>
+      <title>Tutorial: Exception Levels</title>
+      <link>http://arm64hypervisor.com/posts/1bootable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://arm64hypervisor.com/posts/1bootable/</guid>
+      <description>Today, we try to write a simple bootable hypervisor binary with just a blank screen(have patience, we&amp;rsquo;ll make it print the hello world too, but in future). Exceptions levels define execution privelege at each level. There are 4 exception levels in ARMv8 architecture.
+ Exception Level 0 (EL0): This Exception Level or Privelege Level is commonly used by userspace applications. Firefox, Libreoffice, VLC Media Player, VirtualBox are few examples of userspace applications.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: Exception Levels</title>
+      <link>http://arm64hypervisor.com/posts/exception_levels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://arm64hypervisor.com/posts/exception_levels/</guid>
+      <description>Exceptions levels define execution privelege at each level. There are 4 exception levels in ARMv8 architecture.
+ Exception Level 0 (EL0): This Exception Level or Privelege Level is commonly used by userspace applications. Firefox, Libreoffice, VLC Media Player, VirtualBox are few examples of userspace applications. Exception Level 1 (EL1): Kernel and all privileged code associated with kernel works in EL1 execution level. Exception Level 2 (EL2): Hypervisor(including KVM) works in exception level.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: Introduction</title>
+      <link>http://arm64hypervisor.com/posts/0intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://arm64hypervisor.com/posts/0intro/</guid>
+      <description>This is a series of tutorials that I never had a year ago when I decided to write a bare metal hypervisor on Raspberry Pi 4, Leo Hypervisor. I did not have prior experience with bare-metal or even kernel development. Therefore, I will be sharing all that I have learned in following series of tutorials. You are welcome to contribute to this project and I would also love to learn from you.</description>
+    </item>
     
   </channel>
 </rss>
