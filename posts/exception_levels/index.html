@@ -7,8 +7,8 @@
 <meta name="robots" content="index, follow">
 <title>Tutorial: Exception Levels | ARM64 Hypervisor</title>
 <meta name="keywords" content="">
-<meta name="description" content="Exceptions levels define execution privelege at each level. There are 4 exception levels in ARMv8 architecture.
- Exception Level 0 (EL0): This Exception Level or Privelege Level is commonly used by userspace applications. Firefox, Libreoffice, VLC Media Player, VirtualBox are few examples of userspace applications. Exception Level 1 (EL1): Kernel and all privileged code associated with kernel works in EL1 execution level. Exception Level 2 (EL2): Hypervisor(including KVM) works in exception level.">
+<meta name="description" content="Today, we try to write a simple bootable hypervisor binary with just a blank screen(have patience, we&rsquo;ll make it print the hello world too, but in future). Exceptions levels define execution privelege at each level. There are 4 exception levels in ARMv8 architecture.
+ Exception Level 0 (EL0): This Exception Level or Privelege Level is commonly used by userspace applications. Firefox, Libreoffice, VLC Media Player, VirtualBox are few examples of userspace applications.">
 <meta name="author" content="Mushahid Hussain(SikkiLadho)">
 <link rel="canonical" href="http://arm64hypervisor.com/posts/exception_levels/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.48a18943c2fc15c38a372b8dde1f5e5dc0bc64fa6cb90f5a817d2f8c76b7f3ae.css" integrity="sha256-SKGJQ8L8FcOKNyuN3h9eXcC8ZPpsuQ9agX0vjHa3864=" rel="preload stylesheet" as="style">
@@ -69,8 +69,8 @@ if (!doNotTrack) {
 }
 </script>
 <meta property="og:title" content="Tutorial: Exception Levels" />
-<meta property="og:description" content="Exceptions levels define execution privelege at each level. There are 4 exception levels in ARMv8 architecture.
- Exception Level 0 (EL0): This Exception Level or Privelege Level is commonly used by userspace applications. Firefox, Libreoffice, VLC Media Player, VirtualBox are few examples of userspace applications. Exception Level 1 (EL1): Kernel and all privileged code associated with kernel works in EL1 execution level. Exception Level 2 (EL2): Hypervisor(including KVM) works in exception level." />
+<meta property="og:description" content="Today, we try to write a simple bootable hypervisor binary with just a blank screen(have patience, we&rsquo;ll make it print the hello world too, but in future). Exceptions levels define execution privelege at each level. There are 4 exception levels in ARMv8 architecture.
+ Exception Level 0 (EL0): This Exception Level or Privelege Level is commonly used by userspace applications. Firefox, Libreoffice, VLC Media Player, VirtualBox are few examples of userspace applications." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://arm64hypervisor.com/posts/exception_levels/" /><meta property="og:image" content="http://arm64hypervisor.com/papermod-cover.png"/><meta property="article:section" content="posts" />
 
@@ -80,8 +80,8 @@ if (!doNotTrack) {
 <meta name="twitter:image" content="http://arm64hypervisor.com/papermod-cover.png"/>
 
 <meta name="twitter:title" content="Tutorial: Exception Levels"/>
-<meta name="twitter:description" content="Exceptions levels define execution privelege at each level. There are 4 exception levels in ARMv8 architecture.
- Exception Level 0 (EL0): This Exception Level or Privelege Level is commonly used by userspace applications. Firefox, Libreoffice, VLC Media Player, VirtualBox are few examples of userspace applications. Exception Level 1 (EL1): Kernel and all privileged code associated with kernel works in EL1 execution level. Exception Level 2 (EL2): Hypervisor(including KVM) works in exception level."/>
+<meta name="twitter:description" content="Today, we try to write a simple bootable hypervisor binary with just a blank screen(have patience, we&rsquo;ll make it print the hello world too, but in future). Exceptions levels define execution privelege at each level. There are 4 exception levels in ARMv8 architecture.
+ Exception Level 0 (EL0): This Exception Level or Privelege Level is commonly used by userspace applications. Firefox, Libreoffice, VLC Media Player, VirtualBox are few examples of userspace applications."/>
 
 
 <script type="application/ld+json">
@@ -110,12 +110,12 @@ if (!doNotTrack) {
   "@type": "BlogPosting",
   "headline": "Tutorial: Exception Levels",
   "name": "Tutorial: Exception Levels",
-  "description": "Exceptions levels define execution privelege at each level. There are 4 exception levels in ARMv8 architecture.\n Exception Level 0 (EL0): This Exception Level or Privelege Level is commonly used by userspace applications. Firefox, Libreoffice, VLC Media Player, VirtualBox are few examples of userspace applications. Exception Level 1 (EL1): Kernel and all privileged code associated with kernel works in EL1 execution level. Exception Level 2 (EL2): Hypervisor(including KVM) works in exception level.",
+  "description": "Today, we try to write a simple bootable hypervisor binary with just a blank screen(have patience, we\u0026rsquo;ll make it print the hello world too, but in future). Exceptions levels define execution privelege at each level. There are 4 exception levels in ARMv8 architecture.\n Exception Level 0 (EL0): This Exception Level or Privelege Level is commonly used by userspace applications. Firefox, Libreoffice, VLC Media Player, VirtualBox are few examples of userspace applications.",
   "keywords": [
     
   ],
-  "articleBody": "Exceptions levels define execution privelege at each level. There are 4 exception levels in ARMv8 architecture.\n Exception Level 0 (EL0): This Exception Level or Privelege Level is commonly used by userspace applications. Firefox, Libreoffice, VLC Media Player, VirtualBox are few examples of userspace applications. Exception Level 1 (EL1): Kernel and all privileged code associated with kernel works in EL1 execution level. Exception Level 2 (EL2): Hypervisor(including KVM) works in exception level. Exception Level 3 (EL3): Secure Monitor  That is it.\n",
-  "wordCount" : "80",
+  "articleBody": "Today, we try to write a simple bootable hypervisor binary with just a blank screen(have patience, we’ll make it print the hello world too, but in future). Exceptions levels define execution privelege at each level. There are 4 exception levels in ARMv8 architecture.\n Exception Level 0 (EL0): This Exception Level or Privelege Level is commonly used by userspace applications. Firefox, Libreoffice, VLC Media Player, VirtualBox are few examples of userspace applications. Exception Level 1 (EL1): Kernel and all privileged code associated with kernel works in EL1 execution level. Exception Level 2 (EL2): Hypervisor(including KVM) works in exception level. Exception Level 3 (EL3): Secure Monitor  You might be wondering how we go from one exception level to another. Exception is any event that can cause the currently executing program to be suspended and cause a change in state to execute code to handle that exception. Other processor architectures might describe this as an interrupt. Exception Level would remain the same of increase, when an exception occurs. Exceptions would always be handled at the same exception level or a higher.\nLet’s understand this with a simple example. Imagine that you have developed an operating system kernel running at EL1 and you want wake up a secondary cpu core(it is asleep at the start.). The code which makes it possible to wake up a secondary core, is present at EL3 in the form of an exception handler. You would cause an exception to occur and EL3 would wake up the core for you. When handler at EL3 does its magic, it would then return to your exception level.\nFollowing instructions can cause different exceptions to occur. (Assuming that hypervisor is not trapping exceptions, we’ll know more about smc trapping in future posts.)\n smc or Secure Monitor Call instruction in armv8 assembly can cause an exception to occur, which will normally be handled at EL3 or Secure Monitor. hvc or Hypervisor Call is another instruction which can cause an exception, to be handled at EL2 or Hypervisor. svc or Supervisor Call instruction can cause an exception to occur, which will be handled at EL0 or Kernel.  Note that exceptions would increase either the exception level or the exception level would remain same. Occurance of an exception would never decrease the exception level. Convversly, returing from an exception would always cause the exception level to decrease or remain same.\n eret instruction can be used to return to a lower exception level or remain on the same exception level. When an exception handler does what it has do, then it will end the exception by using eret instruction.  I hope you were able to digest everything. Please refer to this documentation, if you would like to know more. That is one of the excellent documentations I have seen. That is it for today. Now that basics are covered, we will try to write the a bare metal hypervisor binary at EL2 or Hypervisor Level!. Stay Tuned.\n",
+  "wordCount" : "490",
   "inLanguage": "en",
   "datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
@@ -210,30 +210,38 @@ if (!doNotTrack) {
     <h1 class="post-title">
       Tutorial: Exception Levels
     </h1>
-    <div class="post-meta">1 min&nbsp;·&nbsp;Mushahid Hussain(SikkiLadho)
+    <div class="post-meta">3 min&nbsp;·&nbsp;Mushahid Hussain(SikkiLadho)
 
 </div>
   </header> 
 
-  <div class="post-content"><p>Exceptions levels define execution privelege at each level. There are 4 exception levels in ARMv8 architecture.</p>
+  <div class="post-content"><p>Today, we try to write a simple bootable hypervisor binary with just a blank screen(have patience, we&rsquo;ll make it print the hello world too, but in future).
+Exceptions levels define execution privelege at each level. There are 4 exception levels in ARMv8 architecture.</p>
 <ul>
 <li><strong>Exception Level 0 (EL0)</strong>: This Exception Level or Privelege Level is commonly used by userspace applications. Firefox, Libreoffice, VLC Media Player, VirtualBox are few examples of userspace applications.</li>
 <li><strong>Exception Level 1 (EL1)</strong>: Kernel and all privileged code associated with kernel works in EL1 execution level.</li>
 <li><strong>Exception Level 2 (EL2)</strong>: Hypervisor(including KVM) works in exception level.</li>
 <li><strong>Exception Level 3 (EL3)</strong>: Secure Monitor</li>
 </ul>
-<p>That is it.</p>
+<p>You might be wondering how we go from one exception level to another. <strong>Exception</strong> is any event that can cause the currently executing program to be suspended and cause a change in state to execute code to handle that exception. Other processor architectures might describe this as an interrupt. Exception Level would remain the same of increase, when an exception occurs. Exceptions would always be handled at the same exception level or a higher.</p>
+<p>Let&rsquo;s understand this with a simple example. Imagine that you have developed an operating system kernel running at EL1 and you want wake up a secondary cpu core(it is asleep at the start.). The code which makes it possible to wake up a secondary core, is present at EL3 in the form of an <strong>exception handler</strong>. You would cause an exception to occur and EL3 would wake up the core for you. When handler at EL3 does its magic, it would then return to your exception level.</p>
+<p>Following instructions can cause different exceptions to occur. (Assuming that hypervisor is not trapping exceptions, we&rsquo;ll know more about smc trapping in future posts.)</p>
+<ul>
+<li><code>smc</code> or <strong>Secure Monitor Call</strong> instruction in armv8 assembly can cause an exception to occur, which will normally be handled at EL3 or Secure Monitor.</li>
+<li><code>hvc</code> or <strong>Hypervisor Call</strong> is another instruction which can cause an exception, to be handled at EL2 or Hypervisor.</li>
+<li><code>svc</code> or <strong>Supervisor Call</strong> instruction can cause an exception to occur, which will be handled at EL0 or Kernel.</li>
+</ul>
+<p>Note that exceptions would increase either the exception level or the exception level would remain same. Occurance of an exception would never decrease the exception level. Convversly, returing from an exception would always cause the exception level to decrease or remain same.</p>
+<ul>
+<li><code>eret</code> instruction can be used to return to a lower exception level or remain on the same exception level. When an exception handler does what it has do, then it will end the exception by using <code>eret</code> instruction.</li>
+</ul>
+<p>I hope you were able to digest everything. Please refer to <a href="https://developer.arm.com/documentation/den0024/a">this documentation</a>, if you would like to know more. That is one of the excellent documentations I have seen. That is it for today. Now that basics are covered, we will try to write the a bare metal hypervisor binary at EL2 or Hypervisor Level!. Stay Tuned.</p>
 
 
   </div>
 
   <footer class="post-footer">
 <nav class="paginav">
-  <a class="prev" href="http://arm64hypervisor.com/posts/1bootable/">
-    <span class="title">« Prev Page</span>
-    <br>
-    <span>Tutorial: Exception Levels</span>
-  </a>
   <a class="next" href="http://arm64hypervisor.com/posts/0intro/">
     <span class="title">Next Page »</span>
     <br>
