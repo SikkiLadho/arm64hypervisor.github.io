@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://arm64hypervisor.com/posts/0intro/</loc>
+  </url><url>
     <loc>http://arm64hypervisor.com/about/</loc>
   </url><url>
     <loc>http://arm64hypervisor.com/archives/</loc>
